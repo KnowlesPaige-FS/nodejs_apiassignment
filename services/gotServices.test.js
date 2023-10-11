@@ -1,6 +1,6 @@
 const {gotService, gotServiceById} = require("./gotServices");
 
-jest.mock("./gotServices");
+// jest.mock("./gotServices");
 
 describe("GOT Service Test", () => {
     test('As a user I should return characters', async () => {
